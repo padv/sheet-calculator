@@ -1,10 +1,10 @@
 # sheet-calculator
 
-Javascript function that reads an excel sheet and parse to the user as an editable view. Then, provides an output based on the rules parsed as an object and user input.
+Javascript function that reads an excel sheet and parses it to the user as an editable view. Then, provides an output based on the rules parsed as an object and user input.
 
-The excel file must follow a set of rules, use xlsx_template and xlsx_mockup to create your own.
+The excel file must follow a set of rules. Use xlsx_template and xlsx_mockup to create your own.
 
-"outputObj" parameter must be an object with functions, and each if its functions must recieve "instance" as parameter. Here is an example:
+"outputObj" parameter must be an object with functions, and each of its functions must receive "instance" as a parameter. Here is an example:
 
 ```
 const outputObj = {
